@@ -1,0 +1,16 @@
+cmd as admin
+
+This is strictly for Ubuntu. Other distributions might have some other folder name.
+
+bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+
+Restart and you’ll be welcomed by the familiar Grub screen. I hope this quick tutorial helped you fix the Grub issue.
+No success?
+
+### If the above method didn’t change anything, you can reverse it using the command below:
+
+bcdedit /deletevalue {bootmgr} path \EFI\ubuntu\grubx64.efi
+
+Even if the above command didn’t work, try the one below to set the boot back to Windows.
+
+bcdedit /set {bootmgr} path \EFI\Microsoft\Boot\bootmgfw.efi
