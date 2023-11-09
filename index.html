@@ -26,6 +26,8 @@
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
+
+  <!-- https://www.w3schools.com/icons/icons_reference.asp -->
 </head>
 
 <body class="is-preload">
@@ -104,32 +106,125 @@
       <!-- Work -->
       <article id="work">
         <h2 class="major">Work</h2>
+        <!-- Project 1 -->
         <h3>Turing Machine</h3>
-        <p>
-          A simulator for deterministic single-tape Turing machines written in
-          Java.
-        </p>
+        A simulator for deterministic single-tape Turing machines written in
+        Java.
+        <ul>
+          <li>
+            Create configurations
+          </li>
+          <li>
+            Load and save configs
+          </li>
+          <li>
+            Play step by step operations.
+          </li>
+          <li>
+            Simple stats for Time and Space complexity.
+          </li>
+        </ul>
+        <span class="tag">DESKTOP</span> <span class="tag">GIT</span> <span class="tag">GRADLE</span> <span
+          class="tag">JAVA FX</span>
         <a href="https://github.com/drizzer/Turing-Machine" target="_blank" rel="noopener"><span class="image main"><img
-              src="images/projects/TM_Preview.png" alt="Turing Machine Project" /></span></a>
+              src="images/projects/turing_project.png" alt="Turing Machine Project" /></span></a>
 
-        <h3>OCR Tesseract</h3>
-        <p>
-          Read and save data from a digital display using image/text recognition.
-        </p>
-        <a href="https://github.com/drizzer/ita_ocr" target="_blank" rel="noopener"><span class="image main"><img
-              src="images/projects/ita_ocr.png" alt="ITA OCR Project" /></span></a>
-
-
+        <!-- Project 2 -->
         <h3>Event Reporting System</h3>
-        <p>
-          Manage university campus leagues and players.
-        </p>
-        <a href="https://swp-ems-2.hochschulsport-hannover.de/" target="_blank" rel="noopener"><span
-            class="image main"><img src="images/projects/swp1.png" alt="SWP Project" />
+        Sport events portal for managers, coaches and players.
+        <ul>
+          <li>
+            Manage university campus leagues, tournaments and players.
+          </li>
+          <li>
+            Admin dashboard for managers.
+          </li>
+          <li>
+            Customized features for coaches and players to submit scores, vote and support.
+          </li>
+        </ul>
+
+        <span class="tag">WEB</span><span class="tag">MongoDB</span><span class="tag">DOCKER</span>
+        <span class="tag">NODE</span><span class="tag">TYPESCRIPT</span>
+        <span class="tag">REACT</span><span class="tag">EXPRESS</span><span class="tag">JWT</span>
+        <a href="https://turniere.hochschulsport-hannover.de/" target="_blank" rel="noopener">
+          <span class="image main">
+            <img src="images/projects/campusliga/homepage.png" alt="SWP Project" />
             </br>
-            <img src="images/projects/swp2.png" alt="SWP Project" /></span>
+            <img src="images/projects/campusliga/admin_dash.png" alt="SWP Project" />
+          </span>
         </a>
+
+        <!-- Project 3 -->
+        <h3>QuizMaster</h3>
+          Quiz App for School classes to help teachers assess pupils during the year.
+        <ul>
+          <li>
+            Take Quiz/Exam or prepare for one.
+          </li>
+          <li>
+            User Authentication for teachers and students.
+          </li>
+          <li>
+            Dashboard for Quiz and User Management
+          </li>
+        </ul>
+
+        <span class="tag">WEB</span><span class="tag">MongoDB</span><span class="tag">DOCKER</span>
+        <span class="tag">NODE</span><span class="tag">TYPESCRIPT</span>
+        <span class="tag">REACT</span><span class="tag">EXPRESS</span><span class="tag">JWT</span>
+        <a href="https://turniere.hochschulsport-hannover.de/" target="_blank" rel="noopener">
+          <span class="image main">
+            <img src="images/projects/quizmaster/quizmaster-home.png" /></span>
+          <span class="image main">
+            <img src="images/projects/quizmaster/quizmaster-user.png" /></span>
+          <span class="image main">
+            <img src="images/projects/quizmaster/quizmaster-admin.png" /></span>
+        </a>
+
+        <!-- Project 4 -->
+        <h3>Rescure Robot for Firefighters</h3>
+        Help firefighters breach effectively into buildings with the ultimate goal
+        to find people, mark them on the map and extract them safely.
+        <ul>
+          <li>
+            Find humans, make noise and mark them on the firefighter tablet.
+          </li>
+          <li>
+            Detect fires, obstacles and mark them on the map
+          </li>
+        </ul>
+
+        <span class="tag">ROBOT</span><span class="tag">TurtleBot</span><span class="tag">ROS</span>
+        <span class="tag">LINUX</span><span class="tag">OPENCV</span><span class="tag">Gazebo</span>
+        <p></p>
+        <iframe width="560" height="315" src="videos/ros_project.mp4" frameborder="0" allowfullscreen></iframe>
+
+        <!-- Project 5 -->
+        <h3>OCR Tesseract</h3>
+        Read and save data from a digital display using image/text recognition.
+        <ul>
+          <li>
+            Upload a video or integrate the plugin.
+          </li>
+          <li>
+            Get results summary and save the results in .csv
+          </li>
+        </ul>
+
+        <span class="tag">DESKTOP</span><span class="tag">PYTHON</span><span class="tag">OpenCV</span>
+        <span class="tag">TESSERACT</span><span class="tag">NUMPY</span><span class="tag">PySimpleGUI</span>
+        <a href="https://github.com/drizzer/ita_ocr" target="_blank" rel="noopener"><span class="image main"><img
+              src="images/projects/ocr_project.png" alt="ocr_project" /></span></a>
+        <iframe width="560" height="315" src="videos/tesseract_project.mp4" frameborder="0" allowfullscreen></iframe>
+
+        <!-- Project 6 -->
+
+
+
+
       </article>
+
 
       <!-- Blog -->
       <article id="blog">
@@ -138,23 +233,26 @@
         </h2>
         <h3>
           <b>Last article:</b>
-          <a href="https://blog.drizzer.de/fix-grub-bootloader-not-showing-up-after-windows-upgrade" target="_blank"
-            rel="noopener">Fix
-            Windows/Linux DualBoot</a>
-          <i class="fab fa-linux" title="LINUX"></i>
+          <a href="https://drizzer.hashnode.dev/backup-and-move-wsl2-between-disks" target="_blank"
+            rel="noopener">Backup and move WSL2 between disks</a>
         </h3>
         <ul>
           <li>
+            <a href="https://blog.drizzer.de/fix-grub-bootloader-not-showing-up-after-windows-upgrade"
+              target="_blank">Fix Windows/Linux DualBoot</a>
+            <i class="fas fa-wrench"></i> </i><i class="fab fa-windows"></i> <i class="fab fa-linux"></i>
+          </li>
+          <li>
             <a href="./blog/cheatSheets/HTML5_cheatSheet.pdf" target="_blank">HTML5 Cheat Sheet</a>
-            <i class="fab fa-html5"></i>
+            <i class="fas fa-code"></i> <i class="fab fa-html5"></i>
           </li>
           <li>
             <a href="https://introcs.cs.princeton.edu/java/faq/c2java.html" target="_blank" rel="noopener">C vs Java</a>
-            <i class="fas fa-code"></i>
+            <i class="fas fa-code"></i> <i class="fas fa-coffee"></i>
           </li>
           <li>
             <a href="./blog/ubuntu_shortcut_key.html" target="_blank">Shortcut Keys in Ubuntu</a>
-            <i class="fab fa-linux" title="LINUX"></i>
+            <i class="fab fa-ubuntu"></i>
           </li>
         </ul>
       </article>
