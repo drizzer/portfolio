@@ -40,12 +40,14 @@
       </div>
       <div class="content">
         <div class="inner">
+          <h1>Hi there! I am Hedi</h1>
           <p>
-            Hi there! I am <b>Hedi</b>, a Developer based in Hannover,Germany I
+            a Developer based in Hannover,Germany I
             present my projects here and I also occasionally blog.
           </p>
         </div>
       </div>
+      <!--Menu buttons -->
       <nav>
         <ul>
           <li>
@@ -58,7 +60,7 @@
             <a href="#blog">Blog <i class="fas fa-blog"></i></a>
           </li>
           <li>
-            <a href="mailto:med_attia@hotmail.fr">Contact <i class="fas fa-envelope"></i></a>
+            <a href="#contact">Contact <i class="fas fa-envelope"></i></a>
           </li>
         </ul>
       </nav>
@@ -102,7 +104,65 @@
         </p>
       </article>
 
-      <!-- Work -->
+      <!-- Contact -->
+      <article id="contact">
+        <h2 class="major">Contact</h2>
+        <form method="post" action="https://formspree.io/f/mwpepwjk">
+          <div class="fields">
+            <div class="field half">
+              <label for="name">Name</label>
+              <input type="text" name="Name" id="name" />
+            </div>
+            <div class="field half">
+              <label for="email">Email</label>
+              <input type="text" name="Email" id="email" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="Message" id="message" rows="4"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Send Message" class="primary" /></li>
+            <li><input type="reset" value="Reset" /></li>
+          </ul>
+        </form>
+      </article>
+
+      <!-- Blog -->
+      <article id="blog">
+        <h2 class="major">
+          <a href="https://blog.drizzer.de" target="_blank" rel="noopener">Blog:</a>
+        </h2>
+        <h3>
+          <b>Last article:</b>
+          <a href="https://drizzer.hashnode.dev/backup-and-move-wsl2-between-disks" target="_blank"
+            rel="noopener">Backup and
+            move WSL2 between disks</a>
+        </h3>
+        <ul>
+          <li>
+            <a href="https://blog.drizzer.de/fix-grub-bootloader-not-showing-up-after-windows-upgrade"
+              target="_blank">Fix
+              Windows/Linux DualBoot</a>
+            <i class="fas fa-wrench"></i> </i><i class="fab fa-windows"></i> <i class="fab fa-linux"></i>
+          </li>
+          <li>
+            <a href="./blog/cheatSheets/HTML5_cheatSheet.pdf" target="_blank">HTML5 Cheat Sheet</a>
+            <i class="fas fa-code"></i> <i class="fab fa-html5"></i>
+          </li>
+          <li>
+            <a href="https://introcs.cs.princeton.edu/java/faq/c2java.html" target="_blank" rel="noopener">C vs Java</a>
+            <i class="fas fa-code"></i> <i class="fas fa-coffee"></i>
+          </li>
+          <li>
+            <a href="./blog/ubuntu_shortcut_key.html" target="_blank">Shortcut Keys in Ubuntu</a>
+            <i class="fab fa-ubuntu"></i>
+          </li>
+        </ul>
+      </article>
+
+      <!-- ############################ Work ############################ -->
       <article id="work">
         <h2 class="major">Work</h2>
         <!-- Project 1 -->
@@ -235,48 +295,15 @@
 
 
       </article>
-      <!-- Blog -->
-      <article id="blog">
-        <h2 class="major">
-          <a href="https://blog.drizzer.de" target="_blank" rel="noopener">Blog:</a>
-        </h2>
-        <h3>
-          <b>Last article:</b>
-          <a href="https://drizzer.hashnode.dev/backup-and-move-wsl2-between-disks" target="_blank"
-            rel="noopener">Backup and move WSL2 between disks</a>
-        </h3>
-        <ul>
-          <li>
-            <a href="https://blog.drizzer.de/fix-grub-bootloader-not-showing-up-after-windows-upgrade"
-              target="_blank">Fix Windows/Linux DualBoot</a>
-            <i class="fas fa-wrench"></i> </i><i class="fab fa-windows"></i> <i class="fab fa-linux"></i>
-          </li>
-          <li>
-            <a href="./blog/cheatSheets/HTML5_cheatSheet.pdf" target="_blank">HTML5 Cheat Sheet</a>
-            <i class="fas fa-code"></i> <i class="fab fa-html5"></i>
-          </li>
-          <li>
-            <a href="https://introcs.cs.princeton.edu/java/faq/c2java.html" target="_blank" rel="noopener">C vs Java</a>
-            <i class="fas fa-code"></i> <i class="fas fa-coffee"></i>
-          </li>
-          <li>
-            <a href="./blog/ubuntu_shortcut_key.html" target="_blank">Shortcut Keys in Ubuntu</a>
-            <i class="fab fa-ubuntu"></i>
-          </li>
-        </ul>
-      </article>
     </div>
+
 
     <!-- Footer -->
     <footer id="footer">
       <p class="copyright">&copy; <b>Mohamed El Hedi Attia</b></p>
       <i class="fab fa-dev" title="DEV"></i>
       <br /><br /><br /><br />
-      <p class="copyright">
-        Design: Dimension by
-        <a href="https://html5up.net">HTML5 UP</a>
-        under <a href="https://html5up.net/license">Creative Commons</a>.
-      </p>
+      <p class="copyright">&copy; DRiZZER. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
     </footer>
   </div>
 
